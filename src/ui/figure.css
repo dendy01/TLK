@@ -1,0 +1,54 @@
+/* FIGURE */
+.frame 
+{
+    padding: 15px;
+    border: 1px solid transparent;
+}
+
+.rect
+{
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+.rect-v
+{
+    width: 100%;
+    aspect-ratio: 1 / 2;
+}
+
+.rect-h
+{
+    width: 100%;
+    aspect-ratio: 2 / 1;
+}
+
+.rect-1
+{
+    width: 100%;
+    aspect-ratio: 2.4 / 1;
+}
+
+.rect-2
+{
+    width: 100%;
+    aspect-ratio: 2 / 1;
+}
+
+.rect-3
+{
+    width: 100%;
+    aspect-ratio: 2 / 1;
+}
+
+.rect-4
+{
+    width: 100%;
+    aspect-ratio: 2 / 1;
+}
+
+.rect-5
+{
+    width: 100%;
+    aspect-ratio: 2 / 1;
+}

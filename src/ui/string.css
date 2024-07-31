@@ -1,0 +1,58 @@
+/* TEXT */
+hr 
+{
+    width: 98%;
+    height: 1px;
+    background: #ccc;
+    margin: 15px auto;
+}
+
+.hr-light
+{
+    background: var(--l-color);
+    opacity: .8;
+}
+
+.hr-dark
+{
+    background: var(--d-color);
+    opacity: .8;
+}
+
+/* TEXT */
+
+.s-title 
+{
+    font-size: clamp(22px, 0.875rem + 2.5vw, 44px);
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;  
+    margin-bottom: 40px;
+}
+
+.s-title:after 
+{
+    content: "";
+    display: block;
+    margin: 10px auto 0;
+    width: 100px;
+    height: 3px;
+    background: var(--p-color);
+}
+
+.sb-title
+{
+    font-size: clamp(18px, 0.8068rem + 1.5909vw, 32px);
+}
+
+.slogan 
+{
+    font-size: clamp(14px, 0.7841rem + 0.4545vw, 18px);
+}
+
+.text 
+{
+    font-family: sans-serif;
+    font-size: clamp(14px, 0.8295rem + 0.2273vw, 16px);
+    line-height: 1.4em;
+}

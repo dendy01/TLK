@@ -1,0 +1,14 @@
+{
+  "name": "stylekit",
+  "version": "2.6.1",
+  "description": "",
+  "scripts": {
+    "build": "node build_css"
+  },
+  "keywords": [],
+  "author": "fruitKitDev",
+  "license": "ISC",
+  "devDependencies": {
+    "csso": "^5.0.5"
+  }
+}

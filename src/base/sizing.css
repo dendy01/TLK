@@ -1,0 +1,506 @@
+.auto-size { width: auto !important; height: auto !important; }
+.full-size { width: 100% !important; height: 100% !important; }
+
+.w-i { width: inherit; }
+.h-i { height: inherit; }
+
+/* SIZING MIN MAX */
+.mx-w100 { max-width: 100px; }
+.mx-w200 { max-width: 200px; }
+.mx-w300 { max-width: 300px; }
+.mx-w400 { max-width: 400px; }
+.mx-w500 { max-width: 500px; }
+.mx-w600 { max-width: 600px; }
+.mx-w700 { max-width: 700px; }
+.mx-w800 { max-width: 800px; }
+.mx-w900 { max-width: 900px; }
+.mx-w1000 { max-width: 1000px; }
+
+.mx-w-c1 { max-width: 1px; }
+.mx-w-c2 { max-width: 1px; }
+.mx-w-c3 { max-width: 1px; }
+.mx-w-c4 { max-width: 1px; }
+.mx-w-c5 { max-width: 1px; }
+
+.mn-w100 { min-width: 100px; }
+.mn-w200 { min-width: 200px; }
+.mn-w300 { min-width: 300px; }
+.mn-w400 { min-width: 400px; }
+.mn-w500 { min-width: 500px; }
+.mn-w600 { min-width: 600px; }
+.mn-w700 { min-width: 700px; }
+.mn-w800 { min-width: 800px; }
+.mn-w900 { min-width: 900px; }
+.mn-w1000 { min-width: 1000px; }
+
+.mn-w-c1 { min-width: 1px; }
+.mn-w-c2 { min-width: 1px; }
+.mn-w-c3 { min-width: 1px; }
+.mn-w-c4 { min-width: 1px; }
+.mn-w-c5 { min-width: 1px; }
+
+.mx-h100 { max-height: 100px; }
+.mx-h200 { max-height: 200px; }
+.mx-h300 { max-height: 300px; }
+.mx-h400 { max-height: 400px; }
+.mx-h500 { max-height: 500px; }
+.mx-h600 { max-height: 600px; }
+.mx-h700 { max-height: 700px; }
+.mx-h800 { max-height: 800px; }
+.mx-h900 { max-height: 900px; }
+.mx-h1000 { max-height: 1000px; }
+
+.mx-h-c1 { max-height: 1px; }
+.mx-h-c2 { max-height: 1px; }
+.mx-h-c3 { max-height: 1px; }
+.mx-h-c4 { max-height: 1px; }
+.mx-h-c5 { max-height: 1px; }
+
+.mn-h100 { min-height: 100px; }
+.mn-h200 { min-height: 200px; }
+.mn-h300 { min-height: 300px; }
+.mn-h400 { min-height: 400px; }
+.mn-h500 { min-height: 500px; }
+.mn-h600 { min-height: 600px; }
+.mn-h700 { min-height: 700px; }
+.mn-h800 { min-height: 800px; }
+.mn-h900 { min-height: 900px; }
+.mn-h1000 { min-height: 1000px; }
+
+.mn-h-c1 { min-height: 1px; }
+.mn-h-c2 { min-height: 1px; }
+.mn-h-c3 { min-height: 1px; }
+.mn-h-c4 { min-height: 1px; }
+.mn-h-c5 { min-height: 1px; }
+
+
+
+/* WIDTH % */
+.w-a { width: auto !important; }
+.w0 { width: 0px !important; }
+.w5 { width: 5% !important; }
+.w10 { width: 10% !important; }
+.w15 { width: 15% !important; }
+.w20 { width: 20% !important; }
+.w25 { width: 25% !important; }    
+.w30 { width: 30% !important; }
+.w40 { width: 40% !important; }
+.w50 { width: 50% !important; }
+.w60 { width: 60% !important; }
+.w70 { width: 70% !important; }
+.w80 { width: 80% !important; }
+.w90 { width: 90% !important; }
+.w100 { width: 100% !important; }
+
+/* HEIGHT % */
+.h-a { height: auto !important; }
+.h0 { height: 0px !important; }
+.h5 { height: 5% !important; }
+.h10 { height: 10% !important; }
+.h15 { height: 15% !important; }
+.h20 { height: 20% !important; }
+.h25 { height: 25% !important; }
+.h30 { height: 30% !important; }
+.h40 { height: 40% !important; }
+.h50 { height: 50% !important; }
+.h60 { height: 60% !important; }
+.h70 { height: 70% !important; }
+.h80 { height: 80% !important; }
+.h90 { height: 90% !important; }
+.h100 { height: 100% !important; }
+
+/* WIDTH VW */
+.vw5 { width: 5vw !important; }
+.vw10 { width: 10vw !important; }
+.vw15 { width: 15vw !important; }
+.vw20 { width: 20vw !important; }
+.vw25 { width: 25vw !important; }
+.vw30 { width: 30vw !important; }
+.vw40 { width: 40vw !important; }
+.vw50 { width: 50vw !important; }
+.vw60 { width: 60vw !important; }
+.vw70 { width: 70vw !important; }
+.vw80 { width: 80vw !important; }
+.vw90 { width: 90vw !important; }
+.vw100 { width: 100vw !important; }
+
+/* HEIGHT VH */
+.vh5 { height: 5vh !important; }
+.vh10 { height: 10vh !important; }
+.vh15 { height: 15vh !important; }
+.vh20 { height: 20vh !important; }
+.vh25 { height: 25vh !important; }
+.vh30 { height: 30vh !important; }
+.vh40 { height: 40vh !important; }
+.vh50 { height: 50vh !important; }
+.vh60 { height: 60vh !important; }
+.vh70 { height: 70vh !important; }
+.vh80 { height: 80vh !important; }
+.vh90 { height: 90vh !important; }
+.vh100 { height: 100vh !important; }
+
+
+@media (min-width: 568px)
+{
+    .auto-s-size { width: auto !important; height: auto !important; }
+    .full-s-size { width: 100% !important; height: 100% !important; }
+
+    .w-s-i { width: inherit; }
+    .h-s-i { height: inherit; }
+
+    /* WIDTH % */
+    .w-s-a { width: auto !important; }
+    .w-s0 { width: 0px !important; }
+    .w-s5 { width: 5% !important; }
+    .w-s10 { width: 10% !important; }
+    .w-s15 { width: 15% !important; }
+    .w-s20 { width: 20% !important; }
+    .w-s25 { width: 25% !important; }
+    .w-s30 { width: 30% !important; }
+    .w-s40 { width: 40% !important; }
+    .w-s50 { width: 50% !important; }
+    .w-s60 { width: 60% !important; }
+    .w-s70 { width: 70% !important; }
+    .w-s80 { width: 80% !important; }
+    .w-s90 { width: 90% !important; }
+    .w-s100 { width: 100% !important; }
+
+    /* HEIGHT % */
+    .h-s-a { height: auto !important; }
+    .h-s0 { height: 0px !important; }
+    .h-s5 { height: 5% !important; }
+    .h-s10 { height: 10% !important; }
+    .h-s15 { height: 15% !important; }
+    .h-s20 { height: 20% !important; }
+    .h-s25 { height: 25% !important; }
+    .h-s30 { height: 30% !important; }
+    .h-s40 { height: 40% !important; }
+    .h-s50 { height: 50% !important; }
+    .h-s60 { height: 60% !important; }
+    .h-s70 { height: 70% !important; }
+    .h-s80 { height: 80% !important; }
+    .h-s90 { height: 90% !important; }
+    .h-s100 { height: 100% !important; }
+
+    /* WIDTH VW */
+    .vw-s5 { width: 5vw !important; }
+    .vw-s10 { width: 10vw !important; }
+    .vw-s15 { width: 15vw !important; }
+    .vw-s20 { width: 20vw !important; }
+    .vw-s25 { width: 25vw !important; }
+    .vw-s30 { width: 30vw !important; }
+    .vw-s40 { width: 40vw !important; }
+    .vw-s50 { width: 50vw !important; }
+    .vw-s60 { width: 60vw !important; }
+    .vw-s70 { width: 70vw !important; }
+    .vw-s80 { width: 80vw !important; }
+    .vw-s90 { width: 90vw !important; }
+    .vw-s100 { width: 100vw !important; }
+
+    /* HEIGHT VH */
+    .vh-s5 { height: 5vh !important; }
+    .vh-s10 { height: 10vh !important; }
+    .vh-s15 { height: 15vh !important; }
+    .vh-s20 { height: 20vh !important; }
+    .vh-s25 { height: 25vh !important; }
+    .vh-s30 { height: 30vh !important; }
+    .vh-s40 { height: 40vh !important; }
+    .vh-s50 { height: 50vh !important; }
+    .vh-s60 { height: 60vh !important; }
+    .vh-s70 { height: 70vh !important; }
+    .vh-s80 { height: 80vh !important; }
+    .vh-s90 { height: 90vh !important; }
+    .vh-s100 { height: 100vh !important; }
+}
+
+@media (min-width: 768px)
+{
+    .auto-m-size { width: auto !important; height: auto !important; }
+    .full-m-size { width: 100% !important; height: 100% !important; }
+
+    .w-m-i { width: inherit; }
+    .h-m-i { height: inherit; }
+
+    /* WIDTH % */
+    .w-m-a { width: auto !important; }
+    .w-m0 { width: 0px !important; }
+    .w-m5 { width: 5% !important; }
+    .w-m10 { width: 10% !important; }
+    .w-m15 { width: 15% !important; }
+    .w-m20 { width: 20% !important; }
+    .w-m25 { width: 25% !important; }
+    .w-m30 { width: 30% !important; }
+    .w-m40 { width: 40% !important; }
+    .w-m50 { width: 50% !important; }
+    .w-m60 { width: 60% !important; }
+    .w-m70 { width: 70% !important; }
+    .w-m80 { width: 80% !important; }
+    .w-m90 { width: 90% !important; }
+    .w-m100 { width: 100% !important; }
+
+    /* HEIGHT % */
+    .h-m-a { height: auto !important; }
+    .h-m0 { height: 0px !important; }
+    .h-m5 { height: 5% !important; }
+    .h-m10 { height: 10% !important; }
+    .h-m15 { height: 15% !important; }
+    .h-m20 { height: 20% !important; }
+    .h-m25 { height: 25% !important; }
+    .h-m30 { height: 30% !important; }
+    .h-m40 { height: 40% !important; }
+    .h-m50 { height: 50% !important; }
+    .h-m60 { height: 60% !important; }
+    .h-m70 { height: 70% !important; }
+    .h-m80 { height: 80% !important; }
+    .h-m90 { height: 90% !important; }
+    .h-m100 { height: 100% !important; }
+
+    /* WIDTH VW */
+    .vw-m5 { width: 5vw !important; }
+    .vw-m10 { width: 10vw !important; }
+    .vw-m15 { width: 15vw !important; }
+    .vw-m20 { width: 20vw !important; }
+    .vw-m25 { width: 25vw !important; }
+    .vw-m30 { width: 30vw !important; }
+    .vw-m40 { width: 40vw !important; }
+    .vw-m50 { width: 50vw !important; }
+    .vw-m60 { width: 60vw !important; }
+    .vw-m70 { width: 70vw !important; }
+    .vw-m80 { width: 80vw !important; }
+    .vw-m90 { width: 90vw !important; }
+    .vw-m100 { width: 100vw !important; }
+
+    /* HEIGHT VH */
+    .vh-m5 { height: 5vh !important; }
+    .vh-m10 { height: 10vh !important; }
+    .vh-m15 { height: 15vh !important; }
+    .vh-m20 { height: 20vh !important; }
+    .vh-m25 { height: 25vh !important; }
+    .vh-m30 { height: 30vh !important; }
+    .vh-m40 { height: 40vh !important; }
+    .vh-m50 { height: 50vh !important; }
+    .vh-m60 { height: 60vh !important; }
+    .vh-m70 { height: 70vh !important; }
+    .vh-m80 { height: 80vh !important; }
+    .vh-m90 { height: 90vh !important; }
+    .vh-m100 { height: 100vh !important; }
+}
+
+@media (min-width: 992px)
+{
+    .auto-l-size { width: auto !important; height: auto !important; }
+    .full-l-size { width: 100% !important; height: 100% !important; }
+
+    .w-l-i { width: inherit; }
+    .h-l-i { height: inherit; }
+
+    /* WIDTH % */
+    .w-l-a { width: auto !important; }
+    .w-l0 { width: 0px !important; }
+    .w-l5 { width: 5% !important; }
+    .w-l10 { width: 10% !important; }
+    .w-l15 { width: 15% !important; }
+    .w-l20 { width: 20% !important; }
+    .w-l25 { width: 25% !important; }
+    .w-l30 { width: 30% !important; }
+    .w-l40 { width: 40% !important; }
+    .w-l50 { width: 50% !important; }
+    .w-l60 { width: 60% !important; }
+    .w-l70 { width: 70% !important; }
+    .w-l80 { width: 80% !important; }
+    .w-l90 { width: 90% !important; }
+    .w-l100 { width: 100% !important; }
+
+    /* HEIGHT % */
+    .h-l-a { height: auto !important; }
+    .h-l0 { height: 0px !important; }
+    .h-l5 { height: 5% !important; }
+    .h-l10 { height: 10% !important; }
+    .h-l15 { height: 15% !important; }
+    .h-l20 { height: 20% !important; }
+    .h-l25 { height: 25% !important; }
+    .h-l30 { height: 30% !important; }
+    .h-l40 { height: 40% !important; }
+    .h-l50 { height: 50% !important; }
+    .h-l60 { height: 60% !important; }
+    .h-l70 { height: 70% !important; }
+    .h-l80 { height: 80% !important; }
+    .h-l90 { height: 90% !important; }
+    .h-l100 { height: 100% !important; }
+
+    /* WIDTH VW */
+    .vw-l5 { width: 5vw !important; }
+    .vw-l10 { width: 10vw !important; }
+    .vw-l15 { width: 15vw !important; }
+    .vw-l20 { width: 20vw !important; }
+    .vw-l25 { width: 25vw !important; }
+    .vw-l30 { width: 30vw !important; }
+    .vw-l40 { width: 40vw !important; }
+    .vw-l50 { width: 50vw !important; }
+    .vw-l60 { width: 60vw !important; }
+    .vw-l70 { width: 70vw !important; }
+    .vw-l80 { width: 80vw !important; }
+    .vw-l90 { width: 90vw !important; }
+    .vw-l100 { width: 100vw !important; }
+
+    /* HEIGHT VH */
+    .vh-l5 { height: 5vh !important; }
+    .vh-l10 { height: 10vh !important; }
+    .vh-l15 { height: 15vh !important; }
+    .vh-l20 { height: 20vh !important; }
+    .vh-l25 { height: 25vh !important; }
+    .vh-l30 { height: 30vh !important; }
+    .vh-l40 { height: 40vh !important; }
+    .vh-l50 { height: 50vh !important; }
+    .vh-l60 { height: 60vh !important; }
+    .vh-l70 { height: 70vh !important; }
+    .vh-l80 { height: 80vh !important; }
+    .vh-l90 { height: 90vh !important; }
+    .vh-l100 { height: 100vh !important; }
+}
+
+@media (min-width: 1200px)
+{
+    .auto-x-size { width: auto !important; height: auto !important; }
+    .full-x-size { width: 100% !important; height: 100% !important; }
+
+    .w-x-i { width: inherit; }
+    .h-x-i { height: inherit; }
+
+    /* WIDTH % */
+    .w-x-a { width: auto !important; }
+    .w-x0 { width: 0px !important; }
+    .w-x5 { width: 5% !important; }
+    .w-x10 { width: 10% !important; }
+    .w-x15 { width: 15% !important; }
+    .w-x20 { width: 20% !important; }
+    .w-x25 { width: 25% !important; }
+    .w-x30 { width: 30% !important; }
+    .w-x40 { width: 40% !important; }
+    .w-x50 { width: 50% !important; }
+    .w-x60 { width: 60% !important; }
+    .w-x70 { width: 70% !important; }
+    .w-x80 { width: 80% !important; }
+    .w-x90 { width: 90% !important; }
+    .w-x100 { width: 100% !important; }
+
+    /* HEIGHT % */
+    .h-x-a { height: auto !important; }
+    .h-x0 { height: 0px !important; }
+    .h-x5 { height: 5% !important; }
+    .h-x10 { height: 10% !important; }
+    .h-x15 { height: 15% !important; }
+    .h-x20 { height: 20% !important; }
+    .h-x25 { height: 25% !important; }
+    .h-x30 { height: 30% !important; }
+    .h-x40 { height: 40% !important; }
+    .h-x50 { height: 50% !important; }
+    .h-x60 { height: 60% !important; }
+    .h-x70 { height: 70% !important; }
+    .h-x80 { height: 80% !important; }
+    .h-x90 { height: 90% !important; }
+    .h-x100 { height: 100% !important; }
+
+    /* WIDTH VW */
+    .vw-x5 { width: 5vw !important; }
+    .vw-x10 { width: 10vw !important; }
+    .vw-x15 { width: 15vw !important; }
+    .vw-x20 { width: 20vw !important; }
+    .vw-x25 { width: 25vw !important; }
+    .vw-x30 { width: 30vw !important; }
+    .vw-x40 { width: 40vw !important; }
+    .vw-x50 { width: 50vw !important; }
+    .vw-x60 { width: 60vw !important; }
+    .vw-x70 { width: 70vw !important; }
+    .vw-x80 { width: 80vw !important; }
+    .vw-x90 { width: 90vw !important; }
+    .vw-x100 { width: 100vw !important; }
+
+    /* HEIGHT VH */
+    .vh-x5 { height: 5vh !important; }
+    .vh-x10 { height: 10vh !important; }
+    .vh-x15 { height: 15vh !important; }
+    .vh-x20 { height: 20vh !important; }
+    .vh-x25 { height: 25vh !important; }
+    .vh-x30 { height: 30vh !important; }
+    .vh-x40 { height: 40vh !important; }
+    .vh-x50 { height: 50vh !important; }
+    .vh-x60 { height: 60vh !important; }
+    .vh-x70 { height: 70vh !important; }
+    .vh-x80 { height: 80vh !important; }
+    .vh-x90 { height: 90vh !important; }
+    .vh-x100 { height: 100vh !important; }
+}
+
+@media (min-width: 1440px)
+{   
+   .auto-w-size { width: auto !important; height: auto !important; }
+   .full-w-size { width: 100% !important; height: 100% !important; }
+   
+   .w-w-i { width: inherit; }
+   .h-w-i { height: inherit; }
+
+   /* WIDTH % */
+   .w-w-a { width: auto !important; }
+   .w-w0 { width: 0px !important; }
+   .w-w5 { width: 5% !important; }
+   .w-w10 { width: 10% !important; }
+   .w-w15 { width: 15% !important; }
+   .w-w20 { width: 20% !important; }
+   .w-w25 { width: 25% !important; }
+   .w-w30 { width: 30% !important; }
+   .w-w40 { width: 40% !important; }
+   .w-w50 { width: 50% !important; }
+   .w-w60 { width: 60% !important; }
+   .w-w70 { width: 70% !important; }
+   .w-w80 { width: 80% !important; }
+   .w-w90 { width: 90% !important; }
+   .w-w100 { width: 100% !important; }
+
+   /* HEIGHT % */
+   .h-w-a { height: auto !important; }
+   .h-w0 { height: 0px !important; }
+   .h-w5 { height: 5% !important; }
+   .h-w10 { height: 10% !important; }
+   .h-w15 { height: 15% !important; }
+   .h-w20 { height: 20% !important; }
+   .h-w25 { height: 25% !important; }
+   .h-w30 { height: 30% !important; }
+   .h-w40 { height: 40% !important; }
+   .h-w50 { height: 50% !important; }
+   .h-w60 { height: 60% !important; }
+   .h-w70 { height: 70% !important; }
+   .h-w80 { height: 80% !important; }
+   .h-w90 { height: 90% !important; }
+   .h-w100 { height: 100% !important; }
+
+   /* WIDTH VW */
+   .vw-w5 { width: 5vw !important; }
+   .vw-w10 { width: 10vw !important; }
+   .vw-w15 { width: 15vw !important; }
+   .vw-w20 { width: 20vw !important; }
+   .vw-w25 { width: 25vw !important; }
+   .vw-w30 { width: 30vw !important; }
+   .vw-w40 { width: 40vw !important; }
+   .vw-w50 { width: 50vw !important; }
+   .vw-w60 { width: 60vw !important; }
+   .vw-w70 { width: 70vw !important; }
+   .vw-w80 { width: 80vw !important; }
+   .vw-w90 { width: 90vw !important; }
+   .vw-w100 { width: 100vw !important; }
+
+   /* HEIGHT VH */
+   .vh-w5 { height: 5vh !important; }
+   .vh-w10 { height: 10vh !important; }
+   .vh-w15 { height: 15vh !important; }
+   .vh-w20 { height: 20vh !important; }
+   .vh-w25 { height: 25vh !important; }
+   .vh-w30 { height: 30vh !important; }
+   .vh-w40 { height: 40vh !important; }
+   .vh-w50 { height: 50vh !important; }
+   .vh-w60 { height: 60vh !important; }
+   .vh-w70 { height: 70vh !important; }
+   .vh-w80 { height: 80vh !important; }
+   .vh-w90 { height: 90vh !important; }
+   .vh-w100 { height: 100vh !important; }
+}

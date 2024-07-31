@@ -1,0 +1,128 @@
+/* RESET DEFAULT STYLES */
+:root 
+{
+    /* COLORS */
+    --p-color: #0066e0;
+    --p-hover: #07e;
+    --p-active: #08f;
+    --p-disable: #58f;
+
+    --s-color: #888;
+    --s-hover: #999;
+    --s-active: #aaa;
+    --s-disable: #bbb;
+
+    --t-color: #de5642;
+    --t-hover: #50b;
+    --t-active: #60c;
+    --t-disable: #64c;
+
+    --gold-color: #ffd700;
+    --dark-color: #020842;
+
+    --w-color: #fff;
+    --w-hover: #eee;
+    --w-active: #ddd;
+    --w-disable: #ccc;
+
+    --b-color: #000;
+    --b-hover: #222;
+    --b-active: #333;
+    --b-disable: #444;
+
+    --d-color: #225;
+    --d-hover: #227;
+    --d-active: #555;
+    --d-disable: #777;
+
+    --l-color: #f1f1f1;
+    --l-hover: #fafafa;
+    --l-active: #eee;
+    --l-disable: #ddd;
+
+    --g-color: #590;
+    --g-hover: #6b0;
+    --g-active: #7c0;
+    --g-disable: #7c6;
+
+    --r-color: #a20;
+    --r-hover: #c20;
+    --r-active: #d30;
+    --r-disable: #d33;
+
+    /* BORDER RADIUS */
+    --b-radius: 10px;
+    --b-radius-t: 10px 10px 0 0;
+    --b-radius-r: 0 10px 10px 0;
+    --b-radius-b: 0 0 10px 10px;
+    --b-radius-l: 10px 0 0 10px;
+
+    --b-radius1: 4px;
+    --b-radius2: 10px;
+    --b-radius3: 10px;
+    --b-radius4: 10px;
+    --b-radius5: 10px;
+
+    /* SHADOWS */
+    --b-shadow: 0 0 20px rgba(0,0,0,.3);
+    --b-shadow1: 0 0 10px rgba(0,0,0,.2);
+    --b-shadow2: 0 0 10px rgba(0,0,0,.2);
+    --b-shadow3: 0 0 10px rgba(0,0,0,.2);
+
+    --t-shadow: 0 0 5px rgba(0,0,0,.2);
+    --t-shadow1: 0 0 5px rgba(0,0,0,.2);
+    --t-shadow2: 0 0 5px rgba(0,0,0,.2);
+    --t-shadow3: 0 0 5px rgba(0,0,0,.2);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: Inter, sans-serif;
+    line-height: 1.4em;
+}
+
+body { background: var(--w-color); }
+
+img, iframe, video, input, textarea, select
+{ width: 100%; }
+
+input[type="checkbox"],
+input[type="radio"]
+{
+    width: auto;
+}
+
+textarea { resize: vertical; }
+
+h1, h2, h3, h4, h5, h6 
+{ font-weight: bold; }
+
+p, a, span, label, li, address, time, b, strong, i, em, u, s, q 
+{ font-size: 16px; font-weight: normal; } 
+
+p { line-height: 1.4em; }
+
+a { cursor: pointer; }
+
+.pos-a
+{
+    position: absolute;
+    top: 0; left: 0;
+}
+
+.pos-f
+{
+    position: fixed;
+    top: 0; left: 0;
+}
+
+.pos-r 
+{
+    position: relative;
+}

@@ -1,0 +1,185 @@
+.header 
+{
+    z-index: 100;
+}
+
+.header-top 
+{
+    min-height: 30px;
+    padding: 5px 0;
+    background: var(--d-color);
+}
+
+.header-link 
+{
+    font-size: clamp(12px, 0.7045rem + 0.2273vw, 14px);
+}
+
+.header-bottom 
+{
+    min-height: 70px;
+    padding: 5px 0;
+    border-bottom: 1px solid var(--l-active);
+    background: var(--w-color);
+}
+
+.logo-img 
+{
+    width: auto;
+    height: 70px;
+    border-radius: var(--b-radius1);
+}
+
+.nav-link 
+{
+    padding: 10px;
+    margin: 0 15px;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    color: var(--d-color);
+}
+
+.nav-link:hover 
+{
+    border-color: var(--t-color);
+}
+
+/* ///////////////////////////////////// */
+
+.slider 
+{
+    background: url(../../img/slider.jpg)no-repeat center/cover;
+}
+
+.slider-buttons .btn 
+{
+    min-width: 208px;
+}
+
+/* ///////////////////////////////////// */
+
+.service-article 
+{
+    border-radius: var(--b-radius1);
+    overflow: hidden;
+}
+
+.service-body 
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background: var(--t-color);
+}
+
+.about .article-img 
+{
+    border-radius: var(--b-radius1);
+}
+
+.about-img-text
+{
+    font-size: clamp(14px, 0.7841rem + 0.4545vw, 18px);
+    font-weight: 500;
+    color: var(--d-color);
+}
+
+.about-img-text::after
+{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 50px;
+    margin-top: 10px;
+    background: var(--t-color);
+}
+
+/* ///////////////////////////////////// */
+
+.calc-bg 
+{
+    font-size: 400px;
+    color: var(--w-color);
+    opacity: .2;
+}
+
+/* ///////////////////////////////////// */
+
+.review-customer
+{
+    padding: 20px;
+    border-radius: var(--b-radius1);
+}
+
+.customer-icon
+{
+    width: auto;
+    height: 60px;
+}
+
+.star-icon
+{
+    font-size: clamp(12px, 0.7045rem + 0.2273vw, 14px);
+    color: var(--gold-color);
+}
+
+.review-customer__text
+{
+    color: var(--dark-color);
+}
+
+/* ///////////////////////////////////// */
+
+.work-num
+{
+    width: 80px;
+    height: 80px;
+    background: var(--t-color);
+    color: var(--w-color);
+    font-size: clamp(16px, 0.8182rem + 0.9091vw, 24px);
+    font-weight: bold;
+}
+
+/* ///////////////////////////////////// */
+
+.autopark-video
+{
+    height: 100% !important;
+    width: 100%;
+    object-fit: cover !important;
+}
+
+.autopark-img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.autopark-img > img
+{
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ///////////////////////////////////// */
+
+.form-call
+{
+    background: var(--d-color);
+}
+
+.form-call .form-input
+{
+    color: var(--w-color);
+}
+
+.form-call .form-select > option
+{
+    background: var(--d-color);
+}
+
+.footer-link > i
+{
+    font-size: clamp(20px, 0.8864rem + 1.8182vw, 36px) !important;
+}

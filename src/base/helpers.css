@@ -1,0 +1,39 @@
+.bg { background: rgba(0,0,0, .25); }
+.bg-w { background: rgba(255,255,255, .25); }
+.border { border: 1px solid var(--b-color); }
+
+.tn,
+.tn * 
+{
+    transition: .3s;
+}
+
+.tn-c,
+.tn-c * 
+{
+    transition: .4s;
+}
+
+.action,
+.action * 
+{
+    cursor: pointer;
+}
+
+.rounded { border-radius: 50%; }
+.rounded-full { border-radius: 1000px; }
+.rounded-1 { border-radius: var(--b-radius1); }
+.rounded-2 { border-radius: var(--b-radius2); }
+.rounded-3 { border-radius: var(--b-radius3); }
+.rounded-4 { border-radius: var(--b-radius4); }
+.rounded-5 { border-radius: var(--b-radius5); }
+
+.b-sh { box-shadow: var(--b-shadow); }
+.b-sh1 { box-shadow: var(--b-shadow1); }
+.b-sh2 { box-shadow: var(--b-shadow2); }
+.b-sh3 { box-shadow: var(--b-shadow3); }
+
+.t-sh { text-shadow: var(--t-shadow); }
+.t-sh1 { text-shadow: var(--t-shadow1); }
+.t-sh2 { text-shadow: var(--t-shadow2); }
+.t-sh3 { text-shadow: var(--t-shadow3); }

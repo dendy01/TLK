@@ -1,0 +1,31 @@
+/** SOURCE FILES */
+@import 'https://fonts.googleapis.com/css2?family=Inter:wght@100..900';
+
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css';
+
+@import 'src/base/fonts.css';
+
+/** CORE FILES */
+@import 'src/base/_base.css';
+@import 'src/base/display.css';
+@import 'src/base/flex.css';
+@import 'src/base/layout.css';
+@import 'src/base/sizing.css';
+@import 'src/base/spacing.css';
+@import 'src/base/text.css';
+@import 'src/base/colors.css';
+@import 'src/base/helpers.css';
+
+/** UI FILES */
+@import 'src/ui/article.css';
+@import 'src/ui/figure.css';
+@import 'src/ui/form.css';
+@import 'src/ui/popup.css';
+@import 'src/ui/scroll.css';
+@import 'src/ui/string.css';
+@import 'src/ui/table.css';
+@import 'src/ui/ui.css';
+
+/** CUSTOM FILES */
+@import 'src/custom/custom.css';
+@import 'src/custom/responsive.css';

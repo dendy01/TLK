@@ -1,0 +1,56 @@
+/* ARTICLE */
+.article 
+{ 
+    width: 100%; 
+    min-width: 100px; 
+    min-height: 100px; 
+    position: relative; 
+}
+
+.article-body 
+{ 
+    padding: 15px; 
+    width: inherit; 
+    min-height: inherit; 
+}
+.article-img 
+{ 
+    width: 100%; 
+    /* aspect-ratio: 4 / 3; */
+    object-fit: cover; 
+}
+.article-icon 
+{ 
+    width: 28px; 
+    height: 28px; 
+    object-fit: contain; 
+}
+.article-title 
+{ 
+    font-size: clamp(14px, 0.7841rem + 0.4545vw, 18px); 
+    font-weight: 500; 
+}
+.article-params 
+{ 
+    font-size: clamp(14px, 0.8295rem + 0.2273vw, 16px); 
+    font-weight: bold; 
+}
+.article-text 
+{ 
+    font-size: clamp(14px, 0.8295rem + 0.2273vw, 16px); 
+}
+.article-link 
+{ 
+    font-size: clamp(14px, 0.8295rem + 0.2273vw, 16px); 
+}
+.article-link:hover 
+{ 
+    text-decoration: underline; 
+}
+.article-overlay 
+{ 
+    width: 100%; 
+    height: 100%; 
+    background: rgba(0,0,0, .7); 
+    position: absolute; top: 0; left: 0; 
+}

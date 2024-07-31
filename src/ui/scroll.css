@@ -1,0 +1,69 @@
+/* SCROLL */
+*::-webkit-scrollbar
+{
+    /* width: 6px;
+    height: 6px;
+    background: transparent; */
+}
+
+*::-webkit-scrollbar-thumb
+{
+    /* width: 6px;
+    border-radius: 6px;
+    background: var(--d-hover); */
+}
+
+.o-hidden
+{
+    overflow: hidden;
+}
+
+.o-hidden-v 
+{
+    overflow-y: hidden;
+}
+
+.o-hidden-h
+{
+    overflow-x: hidden;
+}
+
+.scroll-v
+{
+    width: 100%;
+    overflow-y: auto;
+}
+
+.scroll-v::-webkit-scrollbar
+{
+    width: 6px;
+    height: 6px;
+    background: transparent;
+}
+
+.scroll-v::-webkit-scrollbar-thumb
+{
+    /* width: 6px;
+    border-radius: 6px;
+    background: var(--d-hover); */
+}
+
+.scroll-h
+{
+    width: 100%;
+    overflow-x: auto;
+}
+
+.scroll-h::-webkit-scrollbar
+{
+    /* width: 6px;
+    height: 6px;
+    background: transparent; */
+}
+
+.scroll-h::-webkit-scrollbar-thumb
+{
+    /* width: 6px;
+    border-radius: 6px;
+    background: var(--d-hover); */
+}
