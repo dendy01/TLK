@@ -118,6 +118,42 @@
 .fs12 *
 { font-size: clamp(12px, 0.7045rem + 0.2273vw, 14px) !important; }
 
+.fs-custom,
+.fs-custom *
+{
+    font-size: clamp(1.125rem, 0.4432rem + 3.4091vw, 3rem);
+}
+
+.fs-custom1,
+.fs-custom1 *
+{
+    font-size: clamp(1rem, 0.5455rem + 2.2727vw, 2.25rem);
+}
+
+.fs-custom2,
+.fs-custom2 *
+{
+    font-size: clamp(0.875rem, 0.6477rem + 1.1364vw, 1.5rem);
+}
+
+.fs-custom3,
+.fs-custom3 *
+{
+    font-size: clamp(0.75rem, 0.6136rem + 0.6818vw, 1.125rem) !important;
+}
+
+.fs-custom4,
+.fs-custom4 *
+{
+    font-size: clamp(0.75rem, 0.6136rem + 0.6818vw, 1.125rem);
+}
+
+.fs-custom5,
+.fs-custom5 *
+{
+    font-size: clamp(0.75rem, 0.6591rem + 0.4545vw, 1rem);
+}
+
 @media (min-width: 568px)
 {
     .t-s-center { text-align: center; }

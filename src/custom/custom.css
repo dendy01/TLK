@@ -17,10 +17,14 @@
 
 .header-bottom 
 {
-    min-height: 70px;
     padding: 5px 0;
     border-bottom: 1px solid var(--l-active);
     background: var(--w-color);
+}
+
+.nav-visible
+{
+    transform: translateX(0) !important;
 }
 
 .logo-img 
@@ -44,16 +48,22 @@
     border-color: var(--t-color);
 }
 
-/* ///////////////////////////////////// */
-
-.slider 
+.nav-btn-remove
 {
-    background: url(../../img/slider.jpg)no-repeat center/cover;
+    display: none;
 }
 
-.slider-buttons .btn 
+.icon-visible
 {
-    min-width: 208px;
+    cursor: pointer;
+    display: none;
+}
+
+/* ///////////////////////////////////// */
+
+.slider-head 
+{
+    background: url(../../img/slider.jpg)no-repeat center/cover;
 }
 
 /* ///////////////////////////////////// */
@@ -62,6 +72,11 @@
 {
     border-radius: var(--b-radius1);
     overflow: hidden;
+}
+
+.service-article .article-img
+{
+    height: 300px;
 }
 
 .service-body 
@@ -131,6 +146,11 @@
 
 /* ///////////////////////////////////// */
 
+.work p
+{
+    text-align: center;
+}
+
 .work-num
 {
     width: 80px;
@@ -143,17 +163,17 @@
 
 /* ///////////////////////////////////// */
 
+.autopark-video__wrap,
+.autopark-img
+{
+    height: 300px;
+}
+
 .autopark-video
 {
     height: 100% !important;
     width: 100%;
     object-fit: cover !important;
-}
-
-.autopark-img
-{
-    height: 100%;
-    width: 100%;
 }
 
 .autopark-img > img
@@ -181,5 +201,15 @@
 
 .footer-link > i
 {
-    font-size: clamp(20px, 0.8864rem + 1.8182vw, 36px) !important;
+    font-size: clamp(1rem, 0.7727rem + 1.1364vw, 1.625rem);
+}
+
+.slider 
+{
+    width: 100%;
+}
+
+.contacts-links
+{
+    gap: 30px;
 }

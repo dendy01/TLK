@@ -69,9 +69,23 @@ select.form-input
 /* BUTTONS */
 .btn 
 {
-    padding: 14px 25px;
+    padding: 10px 20px;
     border: 2px solid transparent;
     min-width: 100px;
+    border-radius: var(--b-radius1);
+    font-size: 14px;
+    color: var(--w-color);
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-btn
+{
+    padding: 14px 25px;
+    border: 2px solid transparent;
     border-radius: var(--b-radius1);
     font-size: 14px;
     color: var(--w-color);
@@ -119,6 +133,12 @@ select.form-input
 }
 
 .btn-light
+{
+    background: var(--l-color);
+    color: var(--p-color);
+}
+
+.btn-light-remove
 {
     background: var(--l-color);
     color: var(--p-color);

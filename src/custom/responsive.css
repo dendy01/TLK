@@ -1,24 +1,194 @@
 @media (max-width: 1439px)
 {
+    .service-body
+    {
+        height: 70px;
+    }
 
+    .about-img-text::after
+    {
+        content: "";
+        display: block;
+        height: 2px;
+        width: 50px;
+        margin-top: 0px;
+        background: var(--t-color);
+    }
 }
 
 @media (max-width: 1199px)
 {
-    
+    .nav-link 
+    {
+        margin: 0;
+    }
+
+    .logo-img
+    {
+        height: 60px;
+    }
+
+    .service-article .article-img
+    {
+        height: 200px;
+    }
 }
 
 @media (max-width: 991px)
 {
-    
+    .header-top
+    {
+        min-height: 20px;
+    }
+
+    .logo-img
+    {
+        height: 50px;
+    }
+
+    .header-nav
+    {
+        height: 100%;
+        position: fixed;
+        top: 0; right: 0;
+        background: var(--d-hover);
+        transform: translateX(100%);
+    }   
+
+    .nav-link
+    {
+        color: var(--w-color);
+    }
+
+    .icon-visible 
+    {
+        display: block;
+    }
+
+    .btn-remove
+    {
+        display: none;
+    }
+
+    .nav-btn-remove
+    {
+        display: block;
+    }
+
+    .btn 
+    {
+        padding: 8px 16px;
+    }
+
+    .autopark-video__wrap,
+    .autopark-img
+    {
+        height: 250px;
+    }
+
+    .calc-icon
+    {
+        display: none;
+    }
+
+    .work-num
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+    .about-img-text::after
+    {
+        content: "";
+        display: block;
+        height: 2px;
+        width: 50px;
+        margin-top: 0px;
+        background: var(--t-color);
+    }
+
+    .customer-icon
+    {
+        height: 40px;
+    }
+
+    .review-customer
+    {
+        padding: 15px;
+    }
 }
 
 @media (max-width: 767px)
 {
-    
+    .header-top
+    {
+        display: none;
+    }
+
+    .service-article .article-img
+    {
+        height: 150px;
+    }
+
+    .btn-light-remove
+    {
+        display: none;
+    }
+
+    .service-body
+    {
+        height: 60px;
+    }
+
+    .autopark-video__wrap,
+    .autopark-img
+    {
+        height: 200px;
+    }
+
+    .contacts-links
+    {
+        gap: 15px;
+    }
 }
 
 @media (max-width: 567px)
 {
-    
+    .slider-body
+    {
+        margin-top: 60px;
+    }
+
+    .header-nav
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    .service-body
+    {
+        padding: 8px;
+    }
+
+    .work-num
+    {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 475px)
+{
+    .service-article .article-img
+    {
+        height: 130px;
+    }
+
+    .autopark-video__wrap,
+    .autopark-img
+    {
+        height: 130px;
+    }
 }

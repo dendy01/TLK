@@ -25,7 +25,7 @@
     height: 28px; 
     object-fit: contain; 
 }
-.article-title 
+.article-title
 { 
     font-size: clamp(14px, 0.7841rem + 0.4545vw, 18px); 
     font-weight: 500; 

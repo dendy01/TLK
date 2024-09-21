@@ -5,56 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="dev.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
 </head>
 <body>
 
     <header class="header pos-f w100">
-        <div class="header-top t-white">
-            <div class="container fx f-sb f-m">
+        <div class="header-top">
+            <div class="container fx f-m f-sb t-white">
                 <div class="header-addr">
-                    <a class="header-link"><i class="fa-solid fa-location-dot icon-min"></i> Address 123</a>
+                    <a class="header-link"><i class="fa-solid fa-location-dot"></i> Address 123</a>
                 </div>
 
-                <div class="header-contacts fx f-m g30">
-                    <a href="#" class="header-link"><i class="fa-solid fa-envelope icon-min"></i> tlk-logistic@mail.ru</a>
-                    <a href="#" class="header-link"><i class="fa-brands fa-whatsapp icon-min"></i> +7(911)111-2222</a>
-                    <a href="#" class="header-link"><i class="fa-brands fa-telegram icon-min"></i> @tlk-logistic</a>
+                <div class="header-contacts fx g20">
+                    <a href="#" class="header-link"><i class="fa-solid fa-envelope"></i> tlk-logistic@mail.ru</a>
+                    <a href="#" class="header-link"><i class="fa-brands fa-whatsapp"></i> +7(911)111-2222</a>
+                    <a href="#" class="header-link"><i class="fa-brands fa-telegram"></i> @tlk-logistic</a>
                 </div>
             </div>
         </div>
-        <div class="header-bottom">
+        <div class="header-bottom ">
             <div class="container fx f-sb f-m">
                 <a href="#" class="header-logo">
                     <img src="img/logo.png" alt="" class="logo-img">
                 </a>
 
-                <nav class="header-nav">
-                    <a href="#" class="nav-link">Услуги</a>
-                    <a href="#" class="nav-link">О компании</a>
-                    <a href="#" class="nav-link">Калькулятор</a>
-                    <a href="#" class="nav-link">Отзывы</a>
-                    <a href="#" class="nav-link">Контакты</a>
+                <nav class="header-nav fx f-s-col f-l-row s-s7 s-l8 f-s-c f-s-m g10">
+                    <a href="#" class="nav-link fs11">Услуги</a>
+                    <a href="#" class="nav-link fs11">О компании</a>
+                    <a href="#" class="nav-link fs11">Калькулятор</a>
+                    <a href="#" class="nav-link fs11">Отзывы</a>
+                    <a href="#" class="nav-link fs11">Контакты</a>
+                    <button class="btn btn-primary nav-btn-remove">Заказать звонок</button>
                 </nav>
 
-                <button class="btn btn-primary">Заказать звонок</button>
+                <button class="btn btn-primary btn-remove">Заказать звонок</button>
+                <i class="fa-solid fa-bars icon-visible fs7"></i>
             </div>
         </div>
     </header>
 
-    <div class="section slider mn-h500">
-        <div class="container fx h100">
-            <div class="col s-l6 fx f-m">
-                <div class="slider-body t-white pt100">
-                    <h1 class="t-upper fs1">Тлк объединение</h1>
-                    <h2 class="fs3">Отвезём груз по всей Pоссии</h2>
-                    <p class="fs7 my40">
-                        100% гарантия безопасной доставки с помощью более 8 высокотехнологичных транспортных средств доставки
-                    </p>
-    
-                    <div class="slider-buttons fx g10">
-                        <button class="btn btn-primary fx f-c f-m g10"><i class="fa-solid fa-mobile-screen-button icon-min"></i> Связаться с нами</button>
-                        <button class="btn btn-dark fx f-c f-m g10"><i class="fa-solid fa-calculator icon-min"></i> Рассчитать стоимость</button>
-                    </div>
+    <div class="section slider-head">
+        <div class="container t-white">
+            <div class="slider-body mt-x100 mt-m90 mt-s60">
+                <h1 class="t-upper fs-custom">Тлк объединение</h1>
+                <h2 class="fs-custom1">Отвезём груз по всей Pоссии</h2>
+                <p class="fs-custom2 my20">
+                    100% гарантия безопасной доставки с помощью более 8&nbsp;высокотехнологичных&nbsp;транспортных средств доставки
+                </p>
+
+                <div class="slider-buttons fx g10">
+                    <button class="btn btn-primary">
+                        <i class="fa-solid fa-mobile-screen-button mr5"></i> 
+                        Связаться с нами
+                    </button>
+                    <button class="btn btn-dark">
+                        <i class="fa-solid fa-calculator mr5"></i> 
+                        Рассчитать стоимость
+                    </button>
                 </div>
             </div>
         </div>
@@ -62,43 +70,47 @@
     
     <div class="section sevices">
         <div class="container">
-            <h2 class="s-title">Мы предлагаем</h2>
+            <h2 class="s-title mb20 mb-l40">Мы предлагаем</h2>
 
             <div class="fx">
-                <div class="col s-s6 s-l7">
+                <div class="col s-m6 s-l7 s-s6 s6 p-s5 p5">
                     <div class="service-article pos-r">
-                        <img src="img/slider.jpg" alt="" class="article-img mn-h300">
+                        <img src="img/slider.jpg" alt="" class="article-img">
                         <div class="service-body fx f-sb f-m">
-                            <h3 class="article-title t-white">Перевозка тралом</h3>
-                            <button class="btn btn-light">Заказать</button>
+                            <h3 class="article-title fs-custom3 t-white s-s12 s-m8">Перевозка тралом</h3>
+                            <button class="btn btn-light-remove">Заказать</button>
                         </div>
+                        <button class="btn btn-light">Заказать</button>
                     </div>
                 </div>
-                <div class="col s-s6  s-l5">
+                <div class="col s-m6 s-l5 s-s6 s6 p-s5 p5">
                     <div class="service-article pos-r">
-                        <img src="img/slider.jpg" alt="" class="article-img mn-h300">
+                        <img src="img/slider.jpg" alt="" class="article-img">
                         <div class="service-body fx f-sb f-m">
-                            <h3 class="article-title t-white">Переезд в другой город</h3>
-                            <button class="btn btn-light">Заказать</button>
+                            <h3 class="article-title fs-custom3 t-white s-s12 s-m8">Переезд в другой город</h3>
+                            <button class="btn btn-light-remove">Заказать</button>
                         </div>
+                        <button class="btn btn-light">Заказать</button>
                     </div>
                 </div>
-                <div class="col s-s6  s-l5">
+                <div class="col s-m6 s-l5 s-s6 s6 p-s5 p5">
                     <div class="service-article pos-r">
-                        <img src="img/slider.jpg" alt="" class="article-img mn-h300">
+                        <img src="img/slider.jpg" alt="" class="article-img">
                         <div class="service-body fx f-sb f-m">
-                            <h3 class="article-title t-white">Грузоперевозки фурами 20 тонн</h3>
-                            <button class="btn btn-light">Заказать</button>
+                            <h3 class="article-title fs-custom3 t-white s-s12 s-m8">Грузоперевозки фурами 20&nbsp;тонн</h3>
+                            <button class="btn btn-light-remove">Заказать</button>
                         </div>
+                        <button class="btn btn-light">Заказать</button>
                     </div>
                 </div>
-                <div class="col s-s6  s-l7">
+                <div class="col s-m6 s-l7 s-s6 s6 p-s5 p5">
                     <div class="service-article pos-r">
-                        <img src="img/slider.jpg" alt="" class="article-img mn-h300">
+                        <img src="img/slider.jpg" alt="" class="article-img">
                         <div class="service-body fx f-sb f-m">
-                            <h3 class="article-title t-white">Доставка сборных грузов по России</h3>
-                            <button class="btn btn-light">Заказать</button>
+                            <h3 class="article-title fs-custom3 t-white s-s12 s-m8">Доставка&nbsp;сборных грузов по&nbsp;России</h3>
+                            <button class="btn btn-light-remove">Заказать</button>
                         </div>
+                        <button class="btn btn-light">Заказать</button>
                     </div>
                 </div>
             </div>
@@ -107,28 +119,28 @@
 
     <section class="autopark section bg-primary">
         <div class="container">
-            <h1 class="s-title t-white">Наш автопарк</h1>
+            <h1 class="s-title t-white mb20 mb-l40">Наш автопарк</h1>
 
             <div class="fx">
-                <div class="col s-s5">
-                    <div class="p10 rounded-1 bg-white pos-r h100">
+                <div class="col s-l5 s-m5 s-s6 s6 p5">
+                    <div class="autopark-video__wrap p5 rounded-1 bg-white pos-r">
                         <video autoplay muted loop class="autopark-video">
                             <source src="./video/2.mp4" type="video/mp4">
                         </video>
                     </div>
                 </div>
-                <div class="col s-s7">
-                    <div class="autopark-img p10 rounded-1 bg-white">
+                <div class="col s-l7 s-m7 s-s6 s6 p5">
+                    <div class="autopark-img p5 rounded-1 bg-white">
                         <img src="./img/all-truck.jpeg" alt="">
                     </div>
                 </div>
-                <div class="col s-s7">
-                    <div class="autopark-img p10 rounded-1 bg-white">
-                        <img src="./img/all.jpeg" alt="" class="autopark-img">
+                <div class="col s-l7 s-m7 s-s6 s6 p5">
+                    <div class="autopark-img p5 rounded-1 bg-white">
+                        <img src="./img/all.jpeg" alt="">
                     </div>
                 </div>
-                <div class="col s-s5">
-                    <div class="p10 rounded-1 bg-white h100">
+                <div class="col s-l5 s-m5 s-s6 s6 p5">
+                    <div class="autopark-video__wrap p5 rounded-1 bg-white">
                         <video autoplay muted loop class="autopark-video">
                             <source src="./video/4.mp4" type="video/mp4">
                         </video>
@@ -140,41 +152,41 @@
 
     <div class="section calc bg-primary pos-r">
         <div class="container">
-            <h2 class="s-title t-white">Расчет стоимости доставки</h2>
+            <h2 class="s-title t-white mb20 mb-l40">Расчет стоимости доставки</h2>
             <div class="fx">
-                <div class="col s-l6">
+                <div class="col s-w6 s-x7 s-l8">
                     <form action="" class="calc-form">
                         <div class="fx t-white">
-                            <div class="col s-m6">
-                                <div class="form-area">
+                            <div class="col p2 s-m6">
+                                <div class="form-area p2 p-s5">
                                     <label class="form-label">Откуда</label>
                                     <input type="text" class="form-input" placeholder="Населённый пункт">
                                 </div>
                             </div>
-                            <div class="col s-m6">
-                                <div class="form-area">
+                            <div class="col p2 s-m6">
+                                <div class="form-area p2 p-s5">
                                     <label class="form-label">Куда</label>
                                     <input type="text" class="form-input" placeholder="Населённый пункт">
                                 </div>
                             </div>
-                            <div class="col s-m6">
-                                <div class="form-area">
+                            <div class="col p2 s-m6 s-s6 s6">
+                                <div class="form-area p2 p-s5">
                                     <label class="form-label">Вес груза</label>
                                     <input type="text" class="form-input" placeholder="кг">
                                 </div>
                             </div>
-                            <div class="col s-m6">
-                                <div class="form-area">
+                            <div class="col p2 s-m6 s-s6 s6">
+                                <div class="form-area p2 p-s5">
                                     <label class="form-label">Объём груза</label>
                                     <input type="text" class="form-input" placeholder="м³">
                                 </div>
                             </div>
                         </div>
-                        <div class="form-area fx p10">
-                            <div class="form-area col s-m6">
-                                <button class="btn btn-light">Рассчитать</button>
+                        <div class="form-area p2 fx">
+                            <div class="form-area p2 p-s5 col s-m6 s-s6 s6">
+                                <button class="btn btn-light"><span>Рассчитать</span></button>
                             </div>
-                            <div class="form-area col p10 s-m6 t-white fx f-m">
+                            <div class="form-area p2 p-s5 col s-m6 s-s6 s6 t-white fx f-m f-s f-e">
                                 <p class="fs6 fw-bold">
                                     Итого: <span>0</span> руб.
                                 </p>
@@ -182,7 +194,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="col s-l6 t-right">
+                <div class="col s-w6 s-x5 s-l2 t-right calc-icon">
                     <i class="fa-solid fa-calculator calc-bg"></i>
                 </div>
             </div>
@@ -191,104 +203,110 @@
 
     <section class="work section">
         <div class="container">
-            <h1 class="s-title">Как мы работаем</h1>
+            <h1 class="s-title mb20 mb-l40">Как мы работаем</h1>
 
-            <div class="fx f-c">
-                <div class="work-desc col s-s2 fx f-col f-m">
+            <div class="work-wrap fx f-c">
+                <div class="col fx f-col f-m s6 s-s4 p5">
                     <div class="work-num rounded fx f-c f-m">1</div>
-                    <p class="my20">Оставьте заявку</p>
+                    <p class="my10 my-s20 fs-custom4 px-l70 px-m35">Оставьте заявку</p>
                 </div>
-                <div class="col s-s2 fx f-col f-m">
+                <div class="col fx f-col f-m s6 s-s4 p5">
                     <div class="work-num rounded fx f-c f-m">2</div>
-                    <p class="my20 t-center">Расчет стоимости перевозки</p>
+                    <p class="my10 my-s20 t-center fs-custom4 px-l70 px-m35">Расчет стоимости перевозки</p>
                 </div>
-                <div class="col s-s2 fx f-col f-m">
+                <div class="col fx f-col f-m s6 s-s4 p5">
                     <div class="work-num rounded fx f-c f-m">3</div>
-                    <p class="my20 t-center">Подбор лучших вариантов</p>
+                    <p class="my10 my-s20 t-center fs-custom4 px-l70 px-m35">Подбор лучших вариантов</p>
                 </div>
-                <div class="col s-s2 fx f-col f-m">
+                <div class="col fx f-col f-m s6 s-s4 p5">
                     <div class="work-num rounded fx f-c f-m">4</div>
-                    <p class="my20 t-center">Заключение договора на перевозку</p>
+                    <p class="my10 my-s20 t-center fs-custom4 px-l70 px-m35">Заключение договора&nbsp;на&nbsp;перевозку</p>
                 </div>
-                <div class="col s-s2 fx f-col f-m">
+                <div class="col fx f-col f-m s6 s-s4 p5">
                     <div class="work-num rounded fx f-c f-m">5</div>
-                    <p class="my20 t-center">Перевозка груза</p>
+                    <p class="my10 my-s20 t-center fs-custom4 px-l70 px-m35">Перевозка груза</p>
                 </div>
             </div>
             <div class="fx f-c">
-                <button class="btn btn-primary mt20 t-center fx g10"><i class="fa-solid fa-list-check icon-min"></i> Заполнить форму</button>
+                <button class="btn btn-primary t-center fx">
+                    <span>
+                        <i class="fa-solid fa-list-check icon-min"></i> 
+                        Заполнить форму
+                    </span>
+                </button>
             </div>
         </div>
     </section>
 
     <div class="section about">
         <div class="container">
-            <h2 class="s-title">Виды транспорта</h2>
+            <h2 class="s-title mb20 mb-l40">Виды транспорта</h2>
 
             <div class="fx mt30">
-                <div class="col fx s-s9">
-                    <div class="col s-s4">
+                <div class="col-a s12 s-l7 fx">
+                    <div class="col s6 s-s6 s-m4 p10 p-l5">
                         <img src="img/tent.webp" alt="" class="article-img rect-h">
                         <p class="about-img-text">Тент</p>
                     </div>
-                    <div class="col s-s4">
+                    <div class="col s6 s-s6 s-m4 p10 p-l5">
                         <img src="img/bort.webp" alt="" class="article-img rect-h">
                         <p class="about-img-text">Борт</p>
                     </div>
-                    <div class="col s-s4">
+                    <div class="col s6 s-s6 s-m4 p10 p-l5">
                         <img src="img/termo.jpg" alt="" class="article-img rect-h">
                         <p class="about-img-text">Термобудка</p>
                     </div>
-                    <div class="col s-s4">
+                    <div class="col s6 s-s6 s-m4 p10 p-l5">
                         <img src="img/refrizherator.jpg" alt="" class="article-img rect-h">
                         <p class="about-img-text">Рефрижератор</p>
                     </div>
-                    <div class="col s-s4">
+                    <div class="col s6 s-s6 s-m4 p10 p-l5">
                         <img src="img/container.jpg" alt="" class="article-img rect-h">
                         <p class="about-img-text">Контейнеровоз</p>
                     </div>
-                    <div class="col s-s4">
+                    <div class="col s6 s-s6 s-m4 p10 p-l5">
                         <img src="img/tral.jpg" alt="" class="article-img rect-h">
                         <p class="about-img-text">Трал</p>
                     </div>
                 </div>
-                <div class="col s-s3">
-                    <div class="text">
-                        <p class="mt10">Компания «ТЛК Объединение» уже почти 30 лет осуществляет доставку грузов по всей России.
+
+                <div class="col s-l5 p15 p-l5 s12">
+                    <div class="text fs-custom5">
+                        <p>Компания «ТЛК Объединение» уже почти 30 лет осуществляет доставку грузов по всей России.
 
                         </p>
-                        <p class="mt20">
+                        <p class="mt5">
                             Филиалы компании присутствуют в более чем 80 городах.
                         </p>
-                        <p class="mt20">
+                        <p class="mt5">
                             Перевозим сборные, штучные, крупногабаритные, малогабаритные, тяжеловесные грузы. 
                         </p>
-                        <p class="mt20">
+                        <p class="mt5">
                             Работаем с крупными организациями, представителями малого и среднего бизнеса, частными лицами.
                         </p> 
-                        <p class="mt20">
+                        <p class="mt5">
                             Все услуги предоставляются комплексно.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> 
 
     <section class="reviews section">
         <div class="container">
-            <h1 class="s-title">Отзывы</h1>
+            <h1 class="s-title mb20 mb-l40">Отзывы</h1>
 
-            <div class="reviews-customers fx">
-                <div class="col s-s3">
+            <div class="reviews-customers slider fx">
+                <div class="col slide s-s6">
                     <div class="review-customer b-sh">
-                        <p class="review-customer__text fs11 mx-h200">Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты. Подпоясал там ты свою. Над безорфографичный выйти рекламных заманивший наш, несколько инициал всеми переписывается путь, своего за заголовок вопрос дал</p>
-                        <div class="customer mt20 fx f-m g10">
+                        <p class="review-customer__text fs11">Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты. Подпоясал там ты свою. Над безорфографичный выйти рекламных заманивший наш, несколько инициал всеми переписывается путь, своего за заголовок вопрос дал</p>
+                        <div class="customer mt10 mt-l20 fx f-m g10">
                             <div class="customer-icon">
                                 <img src="https://wp.xpressbuddy.com/techco/wp-content/uploads/2024/06/avatar_11.webp" alt="" class="customer-icon">
                             </div>
                             <div class="customer-status">
-                                <p class="customer-name fs8 t-capit">David clar</p>
+                                <p class="customer-name fs-custom4 t-capit">David clar</p>
                                 <p class="customer-stars">
                                     <span class="star"><i class="fa-solid fa-star star-icon"></i></span>
                                     <span class="star"><i class="fa-solid fa-star star-icon"></i></span>
@@ -300,55 +318,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col s-s3">
+                <div class="col slide s-s6">
                     <div class="review-customer b-sh">
-                        <p class="review-customer__text fs11 mx-h200">Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты. Подпоясал там ты свою. Над безорфографичный выйти рекламных заманивший наш, несколько инициал всеми переписывается путь, своего за заголовок вопрос дал</p>
-                        <div class="customer mt20 fx f-m g10">
+                        <p class="review-customer__text fs11">Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты. Подпоясал там ты свою. Над безорфографичный выйти рекламных заманивший наш, несколько инициал всеми переписывается путь, своего за заголовок вопрос дал</p>
+                        <div class="customer mt10 mt-l20 fx f-m g10">
                             <div class="customer-icon">
                                 <img src="https://wp.xpressbuddy.com/techco/wp-content/uploads/2024/06/avatar_11.webp" alt="" class="customer-icon">
                             </div>
                             <div class="customer-status">
-                                <p class="customer-name fs8 t-capit">David clar</p>
-                                <p class="customer-stars">
-                                    <span class="star"><i class="fa-solid fa-star star-icon"></i></span>
-                                    <span class="star"><i class="fa-solid fa-star star-icon"></i></span>
-                                    <span class="star"><i class="fa-solid fa-star star-icon"></i></span>
-                                    <span class="star"><i class="fa-solid fa-star star-icon"></i></span>
-                                    <span class="star"><i class="fa-solid fa-star star-icon"></i></span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s-s3">
-                    <div class="review-customer b-sh">
-                        <p class="review-customer__text fs11 mx-h200">Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты. Подпоясал там ты свою. Над безорфографичный выйти рекламных заманивший наш, несколько инициал всеми переписывается путь, своего за заголовок вопрос дал</p>
-                        <div class="customer mt20 fx f-m g10">
-                            <div class="customer-icon">
-                                <img src="https://wp.xpressbuddy.com/techco/wp-content/uploads/2024/06/avatar_11.webp" alt="" class="customer-icon">
-                            </div>
-                            <div class="customer-status">
-                                <p class="customer-name fs8 t-capit">David clar</p>
-                                <p class="customer-stars">
-                                    <span class="star"><i class="fa-solid fa-star star-icon"></i></span>
-                                    <span class="star"><i class="fa-solid fa-star star-icon"></i></span>
-                                    <span class="star"><i class="fa-solid fa-star star-icon"></i></span>
-                                    <span class="star"><i class="fa-solid fa-star star-icon"></i></span>
-                                    <span class="star"><i class="fa-solid fa-star star-icon"></i></span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s-s3">
-                    <div class="review-customer b-sh">
-                        <p class="review-customer__text fs11 mx-h200">Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты. Подпоясал там ты свою. Над безорфографичный выйти рекламных заманивший наш, несколько инициал всеми переписывается путь, своего за заголовок вопрос дал</p>
-                        <div class="customer mt20 fx f-m g10">
-                            <div class="customer-icon">
-                                <img src="https://wp.xpressbuddy.com/techco/wp-content/uploads/2024/06/avatar_11.webp" alt="" class="customer-icon">
-                            </div>
-                            <div class="customer-status">
-                                <p class="customer-name fs8 t-capit">David clar</p>
+                                <p class="customer-name fs-custom4 t-capit">David clar</p>
                                 <p class="customer-stars">
                                     <span class="star"><i class="fa-solid fa-star star-icon"></i></span>
                                     <span class="star"><i class="fa-solid fa-star star-icon"></i></span>
@@ -366,28 +344,27 @@
 
     <section class="form-call section">
         <div class="container">
-            <h1 class="s-title t-white">Требуется консультация?</h1>
+            <h1 class="s-title t-white mb20 mb-l40">Требуется консультация?</h1>
             <p class="slogan t-center t-white">
-                Получите бесплатную консультацию нашего логиста, чтобы узнать, <br>
-                как организовать процесс доставки Вашего груза в срок и без проблем
+                Получите бесплатную консультацию нашего логиста
             </p>
 
             <form action="" method="" class="ma mt10 mx-w700">
                 <div class="fx">
-                    <div class="form-area col s-m6">
-                        <div class="p10">
+                    <div class="form-area col s-m6 s-s6">
+                        <div class="pr-s10">
                             <label class="form-label">Имя</label>
                             <input type="text" class="form-input">
                         </div>
                     </div>
-                    <div class="form-area col s-m6">
-                        <div class="p10">
+                    <div class="form-area col s-m6 s-s6">
+                        <div class="pl-s10">
                             <label class="form-label">Номер телефона</label>
                             <input type="text" class="form-input">
                         </div>
                     </div>
                     <div class="form-area col s-m12">
-                        <div class="p10">
+                        <div class="">
                             <label class="form-label">Интересующий транспорт</label>
                             <select name="" id="" class="form-select form-input">
                                 <option value="1">Нет</option>
@@ -399,15 +376,18 @@
                         </div>
                     </div>
                     <div class="form-area col s-m12">
-                        <div class="p10">
-                            <label class="form-label">Оставить сообщение</label>
-                            <textarea name="" id="" class="form-input"></textarea>
-                        </div>
+                        <label class="form-label">Оставить сообщение</label>
+                        <textarea name="" id="" class="form-input"></textarea>
                     </div>
                 </div>
                
-                <div class="form-area fx f-c">
-                    <button class="btn btn-primary mt20 t-center fx g10"><i class="fa-solid fa-file-import icon-min"></i> Отправить</button>
+                <div class="form-area fx f-c p10">
+                    <button class="btn btn-primary mt20 t-center fx g10">
+                        <span>
+                            <i class="fa-solid fa-file-import icon-min"></i> 
+                            Отправить        
+                        </span>
+                    </button>
                 </div>
             </form>
         </div>
@@ -415,12 +395,12 @@
 
     <section class="contacts section bg-dark t-white">
         <div class="container">
-            <h1 class="s-title">Наши контакты</h1>
+            <h1 class="s-title mb20 mb-l40">Наши контакты</h1>
             
-            <div class="contacts-links fx f-c fs5">
+            <div class="contacts-links fx f-c fs-custom2">
                 <a href="#" class="footer-link"><i class="fa-solid fa-envelope"></i> tlk-logistic@mail.ru</a>
-                <a href="#" class="footer-link ml40"><i class="fa-brands fa-whatsapp"></i> +7(911)111-2222</a>
-                <a href="#" class="footer-link ml40"><i class="fa-brands fa-telegram"></i> @tlk-logistic</a>
+                <a href="#" class="footer-link"><i class="fa-brands fa-whatsapp"></i> +7(911)111-2222</a>
+                <a href="#" class="footer-link"><i class="fa-brands fa-telegram"></i> @tlk-logistic</a>
             </div>
         </div>
     </section>
@@ -438,7 +418,7 @@
                 <h2 class="sb-title mt40 t-center t-dark">Заказать звонок</h2>
                 <p class="t-center t-dark">Оставьте свой номер, мы свяжемся с вами в ближайшее время</p>
 
-                <form action="" method="">
+                <form action="/submit" method="post">
                     <div class="form-area">
                         <label class="form-label">Имя</label>
                         <input type="text" placeholder="Имя" class="form-input">
@@ -458,12 +438,21 @@
                             </select>
                     </div>
                     <div class="form-area fx f-c">
-                        <button class="btn btn-primary mt20 t-center fx g10"><i class="fa-solid fa-file-import icon-min"></i> Отправить</button>
+                        <button class="btn btn-primary mt20 t-center fx g10">
+                            <span>
+                                <i class="fa-solid fa-file-import icon-min"></i> 
+                                Отправить        
+                            </span>
+                        </button>
                     </div>
                 </form>
             </div>
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="slick/slick.js"></script>
+    <script src="./index.js"></script>
 
 </body>
 </html>
